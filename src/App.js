@@ -1,5 +1,6 @@
 import images from "./assets/images";
 import responsiveImages from "./assets/responsiveImages";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -54,7 +55,6 @@ function App() {
         alt="responsiveImage2"
         className="sm:hidden block w-full"
       />
-
       <div className="flex flex-col items-center sm:my-12 mt-4 font-poppins">
         <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#4200FF] to-[#8FFF00] font-bold sm:text-[60px] text-[13px]">
           Difo Launchpad is more than just a launch ramp.
@@ -253,83 +253,13 @@ function App() {
         </div>
       </div>
 
-      <div className="flex sm:hidden gap-4 my-4">
-        <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-          <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
-            <img src={images.image10} alt="image10" />
-            <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
-              First come, first served.
-            </h3>
-            <p className="text-white font-normal text-[10px]">
-              Difo Launchpad stands out from other launch ramps with its IDO
-              module based on a first-come, first-served principle.
-            </p>
-          </div>
-        </div>
-
-        <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-          <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
-            <img src={images.image11} alt="image11" />
-            <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
-              Listing Guarantee
-            </h3>
-            <p className="text-white font-normal text-[10px]">
-              Difo Launchpad guarantees investors the listing of the project's
-              token on three central exchanges (CEX) recognized by the community
-              in the cryptocurrency ecosystem immediately after the IDO period
-              ends.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex sm:hidden justify-between mb-4">
-        <img src={responsiveImages.image3} alt="responsiveImage4" />
-        <img src={responsiveImages.image8} alt="responsiveImage5" />
-        <img src={responsiveImages.image3} alt="responsiveImage6" />
-      </div>
-
-      <div className="sm:hidden rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
-        <div className="bg-black rounded-2xl flex items-center gap-6 sm:p-12 p-4">
-          <div className="w-[35%]">
-            <img src={images.image17} alt="image17" />
-          </div>
-
-          <div className="w-[65%]">
-            <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black sm:text-[25px] text-[14px]">
-              One-time KYC
-            </h3>
-            <p className="text-white font-normal sm:text-[22px] text-[9px]">
-              Nothing is more frustrating than multiple KYC checks for each
-              investment. That's why Difo Launchpad chose a different approach.
-              By registering on Difo Launchpad, you only need to pass KYC checks
-              once. After that, simply use your login credentials to easily
-              participate in IDOs.
-            </p>
-          </div>
-        </div>
-      </div>
-
       <div className="sm:block hidden">
         <img src={images.image6} alt="image6" />
         <img src={images.image7} alt="image7" />
         <img src={images.image8} alt="image8" />
       </div>
 
-      <div className="sm:hidden block my-3">
-        <img src={responsiveImages.image9} alt="responsiveImage7" />
-        <img src={responsiveImages.image10} alt="responsiveImage8" />
-        <img src={responsiveImages.image9} alt="responsiveImage9" />
-      </div>
-
-      <div className="flex justify-between sm:hidden">
-        <img src={responsiveImages.image5} alt="responsiveImage10" />
-        <img src={responsiveImages.image4} alt="responsiveImage11" />
-        <img src={responsiveImages.image6} alt="responsiveImage12" />
-        <img src={responsiveImages.image7} alt="responsiveImage13" />
-        <img src={responsiveImages.image4} alt="responsiveImage14" />
-        <img src={responsiveImages.image5} alt="responsiveImage15" />
-      </div>
+      <Carousel />
     </div>
   );
 }
