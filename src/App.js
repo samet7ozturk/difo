@@ -22,10 +22,10 @@ import image21 from "./assets/images/radial-gradient-2.svg";
 
 function App() {
   return (
-    <div className="flex flex-col mx-[5%] mb-10">
+    <div className="flex flex-col mx-[7%] mb-10 font-lexend">
       <div className="flex gap-2">
         <img src={image1} alt="image1" className="" />
-        <h1 class="flex-none text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] text-[53px] font-black">
+        <h1 class="flex-none text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] text-[53px] font-black font-lexend">
           What is Difo Launchpad?
         </h1>
         <img src={image2} alt="image2" className="" />
@@ -44,14 +44,14 @@ function App() {
             Launchpad.
           </p>
         </div>
-        <div className="flex w-[50%] items-center">
+        <div className="flex w-[50%] justify-center">
           <img src={image3} alt="image3" className="" />
         </div>
       </div>
 
       <img src={image4} alt="image4" className="" />
 
-      <div className="my-12">
+      <div className="flex flex-col items-center my-12 font-poppins">
         <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#4200FF] to-[#8FFF00] text-[60px] font-bold">
           Difo Launchpad is more than just a launch ramp.
         </h1>
@@ -61,7 +61,7 @@ function App() {
           </div>
           <div className="w-[60%] text-end">
             <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#AB00FF] to-[#FFAC00] text-[50px] font-semibold mb-14">
-              We are always here to solve h1roblems.
+              We are always here to solve problems.
             </h1>
             <p className="text-white text-[38px] font-normal">
               Difo Launchpad addresses each issue present on the leading IDO
@@ -88,8 +88,8 @@ function App() {
             <img src={image20} alt="image20" className="" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image10} alt="image10" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[26px] font-black">
                 First come, first served.
@@ -107,8 +107,8 @@ function App() {
             <img src={image20} alt="image20" className="" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image11} alt="image11" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[30px] font-black">
                 Listing Guarantee
@@ -131,9 +131,9 @@ function App() {
           <img src={image12} alt="image12" className="" />
         </div>
 
-        <div className="flex flex-col items-center gap-14 w-[33.3%]">
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+        <div className="flex flex-col items-center gap-14 w-[33.3%] pt-20">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image13} alt="image13" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 We are making it easier to participate in IDOs.
@@ -144,6 +144,11 @@ function App() {
                 platform's native token to participate in IDOs, replacing it
                 with more equitable and accessible terms for every investor.
               </p>
+              <button className="rounded-2xl bg-gradient-to-l from-[#00D1FF] to-[#EE1D52] p-1 w-full mt-6">
+                <p className="rounded-2xl py-6 text-[#00B2FF] text-[23px] font-bold">
+                  Learn More
+                </p>
+              </button>
             </div>
           </div>
 
@@ -153,8 +158,8 @@ function App() {
             <img src={image20} alt="image20" className="h-[8px]" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image14} alt="image14" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[40px] font-black">
                 Post-IDO Services
@@ -174,8 +179,8 @@ function App() {
             <img src={image20} alt="image20" className="h-[8px]" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image15} alt="image15" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[30px] font-black">
                 Engaging Design UX/UI
@@ -197,8 +202,8 @@ function App() {
             <img src={image20} alt="image20" className="" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image17} alt="image17" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 One-time KYC
@@ -219,8 +224,8 @@ function App() {
             <img src={image20} alt="image20" className="" />
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] p-1">
-            <div className="bg-black rounded-2xl flex flex-col items-center p-6 gap-4">
+          <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
+            <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
               <img src={image18} alt="image18" className="" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 Blockchains We Support
