@@ -1,34 +1,14 @@
-import image1 from "./assets/images/header-rectangle-l.svg";
-import image2 from "./assets/images/header-rectangle-r.svg";
-import image3 from "./assets/images/first-image.png";
-import image4 from "./assets/images/middle-rectangle.svg";
-import image5 from "./assets/images/second-image.png";
-import image6 from "./assets/images/middle-rectangle-1.svg";
-import image7 from "./assets/images/middle-rectangle-2.svg";
-import image8 from "./assets/images/middle-rectangle-1.svg";
-import image9 from "./assets/images/lock-icon.png";
-import image10 from "./assets/images/third-image.png";
-import image11 from "./assets/images/fourth-image.png";
-import image12 from "./assets/images/box-icon.svg";
-import image13 from "./assets/images/fifth-image.png";
-import image14 from "./assets/images/sixth-image.png";
-import image15 from "./assets/images/seventh-image.png";
-import image16 from "./assets/images/lock-icon.png";
-import image17 from "./assets/images/eighth-image.png";
-import image18 from "./assets/images/ninth-image.png";
-import image19 from "./assets/images/box-icon.svg";
-import image20 from "./assets/images/radial-gradient-1.svg";
-import image21 from "./assets/images/radial-gradient-2.svg";
+import images from "./assets/images";
 
 function App() {
   return (
-    <div className="flex flex-col mx-[7%] mb-10 font-lexend">
+    <div className="flex flex-col mx-[7%] my-10 font-lexend">
       <div className="flex gap-2">
-        <img src={image1} alt="image1" className="" />
+        <img src={images.image1} alt="image1" />
         <h1 class="flex-none text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#AB00FF] text-[53px] font-black font-lexend">
           What is Difo Launchpad?
         </h1>
-        <img src={image2} alt="image2" className="" />
+        <img src={images.image2} alt="image2" />
       </div>
 
       <div className="flex my-16">
@@ -45,11 +25,11 @@ function App() {
           </p>
         </div>
         <div className="flex w-[50%] justify-center">
-          <img src={image3} alt="image3" className="" />
+          <img src={images.image3} alt="image3" />
         </div>
       </div>
 
-      <img src={image4} alt="image4" className="" />
+      <img src={images.image4} alt="image4" />
 
       <div className="flex flex-col items-center my-12 font-poppins">
         <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#4200FF] to-[#8FFF00] text-[60px] font-bold">
@@ -57,7 +37,7 @@ function App() {
         </h1>
         <div className="flex my-16">
           <div className="w-[40%]">
-            <img src={image5} alt="image5" className="" />
+            <img src={images.image5} alt="image5" />
           </div>
           <div className="w-[60%] text-end">
             <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#AB00FF] to-[#FFAC00] text-[50px] font-semibold mb-14">
@@ -74,23 +54,23 @@ function App() {
         </div>
       </div>
 
-      <img src={image6} alt="image6" className="" />
-      <img src={image7} alt="image7" className="" />
-      <img src={image8} alt="image8" className="" />
+      <img src={images.image6} alt="image6" />
+      <img src={images.image7} alt="image7" />
+      <img src={images.image8} alt="image8" />
 
       <div className="flex my-12 gap-14">
         <div className="flex flex-col items-center gap-14 w-[33.3%]">
-          <img src={image9} alt="image9" className="" />
+          <img src={images.image9} alt="image9" />
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image10} alt="image10" className="" />
+              <img src={images.image10} alt="image10" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[26px] font-black">
                 First come, first served.
               </h3>
@@ -102,14 +82,14 @@ function App() {
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image11} alt="image11" className="" />
+              <img src={images.image11} alt="image11" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[30px] font-black">
                 Listing Guarantee
               </h3>
@@ -123,18 +103,18 @@ function App() {
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
-          <img src={image12} alt="image12" className="" />
+          <img src={images.image12} alt="image12" />
         </div>
 
         <div className="flex flex-col items-center gap-14 w-[33.3%] pt-20">
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image13} alt="image13" className="" />
+              <img src={images.image13} alt="image13" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 We are making it easier to participate in IDOs.
               </h3>
@@ -145,22 +125,23 @@ function App() {
                 with more equitable and accessible terms for every investor.
               </p>
               <button className="rounded-2xl bg-gradient-to-l from-[#00D1FF] to-[#EE1D52] p-1 w-full mt-6">
-                <p className="rounded-2xl py-6 text-[#00B2FF] text-[23px] font-bold">
-                  Learn More
-                </p>
+                <div className="flex justify-center gap-4 rounded-2xl py-6 text-[#00B2FF] text-[23px] font-bold">
+                  <p>Learn More</p>
+                  <img src={images.image22} alt="image22" />
+                </div>
               </button>
             </div>
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="h-[8px]" />
-            <img src={image21} alt="image21" className="h-[8px]" />
-            <img src={image20} alt="image20" className="h-[8px]" />
+            <img src={images.image20} alt="image20" className="h-[8px]" />
+            <img src={images.image21} alt="image21" className="h-[8px]" />
+            <img src={images.image20} alt="image20" className="h-[8px]" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image14} alt="image14" className="" />
+              <img src={images.image14} alt="image14" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[40px] font-black">
                 Post-IDO Services
               </h3>
@@ -174,14 +155,14 @@ function App() {
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="h-[8px]" />
-            <img src={image21} alt="image21" className="h-[8px]" />
-            <img src={image20} alt="image20" className="h-[8px]" />
+            <img src={images.image20} alt="image20" className="h-[8px]" />
+            <img src={images.image21} alt="image21" className="h-[8px]" />
+            <img src={images.image20} alt="image20" className="h-[8px]" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image15} alt="image15" className="" />
+              <img src={images.image15} alt="image15" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[30px] font-black">
                 Engaging Design UX/UI
               </h3>
@@ -194,17 +175,17 @@ function App() {
         </div>
 
         <div className="flex flex-col items-center gap-14 w-[33.3%]">
-          <img src={image16} alt="image16" className="" />
+          <img src={images.image16} alt="image16" />
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image17} alt="image17" className="" />
+              <img src={images.image17} alt="image17" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 One-time KYC
               </h3>
@@ -219,14 +200,14 @@ function App() {
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
           <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1">
             <div className="bg-black rounded-2xl flex flex-col items-center p-12 gap-6">
-              <img src={image18} alt="image18" className="" />
+              <img src={images.image18} alt="image18" />
               <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] text-[25px] font-black">
                 Blockchains We Support
               </h3>
@@ -239,18 +220,18 @@ function App() {
           </div>
 
           <div>
-            <img src={image20} alt="image20" className="" />
-            <img src={image21} alt="image21" className="" />
-            <img src={image20} alt="image20" className="" />
+            <img src={images.image20} alt="image20" />
+            <img src={images.image21} alt="image21" />
+            <img src={images.image20} alt="image20" />
           </div>
 
-          <img src={image19} alt="image19" className="" />
+          <img src={images.image19} alt="image19" />
         </div>
       </div>
 
-      <img src={image6} alt="image6" className="" />
-      <img src={image7} alt="image7" className="" />
-      <img src={image8} alt="image8" className="" />
+      <img src={images.image6} alt="image6" />
+      <img src={images.image7} alt="image7" />
+      <img src={images.image8} alt="image8" />
     </div>
   );
 }
