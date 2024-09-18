@@ -33,7 +33,7 @@ export default function Carousel() {
                 <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
                   We are making it easier to participate in IDOs.
                 </h3>
-                <p className="text-white font-normal text-[10px]">
+                <p className="text-white font-normal text-[9px]">
                   Difo Launchpad eliminates the requirement for investors on
                   traditional launch ramps to stake large amounts of the
                   platform's native token to participate in IDOs, replacing it
