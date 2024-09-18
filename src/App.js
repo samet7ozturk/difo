@@ -1,6 +1,8 @@
 import image1 from "./assets/images/header-rectangle-l.svg";
 import image2 from "./assets/images/header-rectangle-r.svg";
 import image3 from "./assets/images/first-image.png";
+import image4 from "./assets/images/middle-rectangle.svg";
+import image5 from "./assets/images/second-image.png";
 
 function App() {
   return (
@@ -30,14 +32,20 @@ function App() {
           <img src={image3} alt="image3" className="" />
         </div>
       </div>
-      {/*2.çizgi*/}
-      <div>
-        <h1>Difo Launchpad is more than just a launch ramp.</h1>
-        <div>
-          <div>{/*2.fotoğraf*/}</div>
-          <div>
-            <h1>We are always here to solve h1roblems.</h1>
-            <p>
+      <img src={image4} alt="image4" className="" />
+      <div className="my-12">
+        <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#4200FF] to-[#8FFF00] text-[60px] font-bold">
+          Difo Launchpad is more than just a launch ramp.
+        </h1>
+        <div className="flex my-16">
+          <div className="w-[40%]">
+            <img src={image5} alt="image5" className="" />
+          </div>
+          <div className="w-[60%] text-end">
+            <h1 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#AB00FF] to-[#FFAC00] text-[50px] font-semibold mb-14">
+              We are always here to solve h1roblems.
+            </h1>
+            <p className="text-white text-[38px] font-normal">
               Difo Launchpad addresses each issue present on the leading IDO
               platforms of the industry separately and strives to resolve them.
               Additionally, apart from enhancing existing problems, we are also
