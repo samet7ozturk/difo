@@ -88,8 +88,8 @@ export default function Carousel() {
       ) : (
         <>
           <div className="flex sm:hidden gap-4 my-4">
-            <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-              <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
+            <div className="flex rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
+              <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2 justify-evenly">
                 <img src={images.image11} alt="image11" />
                 <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
                   Listing Guarantee
