@@ -316,13 +316,19 @@ function App() {
         <img src={images.image8} alt="image8" />
       </div>
 
-      <div className="flex justify-between sm:hidden mt-4">
-        <img src={responsiveImages.image5} alt="responsiveImage7" />
-        <img src={responsiveImages.image4} alt="responsiveImage8" />
-        <img src={responsiveImages.image6} alt="responsiveImage9" />
-        <img src={responsiveImages.image7} alt="responsiveImage10" />
+      <div className="sm:hidden block my-3">
+        <img src={responsiveImages.image9} alt="responsiveImage7" />
+        <img src={responsiveImages.image10} alt="responsiveImage8" />
+        <img src={responsiveImages.image9} alt="responsiveImage9" />
+      </div>
+
+      <div className="flex justify-between sm:hidden">
+        <img src={responsiveImages.image5} alt="responsiveImage10" />
         <img src={responsiveImages.image4} alt="responsiveImage11" />
-        <img src={responsiveImages.image5} alt="responsiveImage12" />
+        <img src={responsiveImages.image6} alt="responsiveImage12" />
+        <img src={responsiveImages.image7} alt="responsiveImage13" />
+        <img src={responsiveImages.image4} alt="responsiveImage14" />
+        <img src={responsiveImages.image5} alt="responsiveImage15" />
       </div>
     </div>
   );
