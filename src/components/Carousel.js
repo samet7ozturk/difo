@@ -27,8 +27,8 @@ export default function Carousel() {
               </div>
             </div>
 
-            <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-              <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
+            <div className="flex rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
+              <div className="bg-black rounded-2xl flex flex-col items-center justify-evenly gap-2 p-2">
                 <img src={images.image13} alt="image13" />
                 <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
                   We are making it easier to participate in IDOs.
@@ -79,7 +79,7 @@ export default function Carousel() {
             </div>
           </div>
 
-          <div className="sm:hidden block my-3">
+          <div className="sm:hidden flex flex-col justify-center my-3">
             <img src={responsiveImages.image9} alt="responsiveImage7" />
             <img src={responsiveImages.image10} alt="responsiveImage8" />
             <img src={responsiveImages.image9} alt="responsiveImage9" />
@@ -103,8 +103,8 @@ export default function Carousel() {
               </div>
             </div>
 
-            <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-              <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
+            <div className="flex rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
+              <div className="bg-black rounded-2xl flex flex-col items-center justify-evenly gap-2 p-2">
                 <img src={images.image14} alt="image14" className="h-[106px]" />
                 <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
                   Post-IDO Services
@@ -126,8 +126,8 @@ export default function Carousel() {
           </div>
 
           <div className="flex sm:hidden gap-4 mt-4">
-            <div className="rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
-              <div className="bg-black rounded-2xl flex flex-col items-center gap-2 p-2">
+            <div className="flex rounded-2xl bg-gradient-to-t from-[#FFAC00] to-[#AB00FF] p-1 w-[50%]">
+              <div className="bg-black rounded-2xl flex flex-col items-center justify-evenly gap-2 p-2">
                 <img src={images.image18} alt="image18" />
                 <h3 className="text-transparent bg-clip-text inline-block bg-gradient-to-r from-[#FFAC00] to-[#FF2E00] font-black text-[10px]">
                   Blockchains We Support
@@ -155,7 +155,7 @@ export default function Carousel() {
             </div>
           </div>
 
-          <div className="sm:hidden block my-3">
+          <div className="sm:hidden flex flex-col justify-center my-3">
             <img src={responsiveImages.image9} alt="responsiveImage7" />
             <img src={responsiveImages.image10} alt="responsiveImage8" />
             <img src={responsiveImages.image9} alt="responsiveImage9" />
